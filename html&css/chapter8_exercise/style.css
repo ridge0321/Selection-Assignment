@@ -1,0 +1,29 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+main{
+    width: 960px;
+}
+ul{
+    padding: 50px;
+    list-style: none;
+}
+.list-color{
+    padding: 20px;
+}
+.list-color:nth-child(odd) {
+    background-color: #c9c9c9;
+}
+
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
